@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ProgramaYa!</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">ProgramaYa!</p>
+            <nav>
+                <a href="#somos-proya">Quienes Somos</a>
+                <a href="#nuestros-programas">Nuestros Programas</a>
+                <a href="#caracteristicas">Características</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Aprendé a Programar <br>con los Mejores</h1>
+        <button data-toggle="modal" data-target="#myModal">APLICÁ YA!</button>
+    </section>
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">El inicio </h4>
+            </div>
+            <div class="modal-body">
+              <p>Felicidades por iniciar tu viaje en el mundo de la programación de páginas webs</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    <section id="somos-proya">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Somos <span class="color-acento">ProgramaYa!</span></h2>
+                <p>Somos una organización orientada a la enseñanza de diferentes lenguajes de programación, nuestra metas es motivar a 
+                  futuros programadores en el camino del diseño de páginas web ya sea front- end, back-end, full stack o python.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                     <div class="carta">
+                    <h3>Programador Front-end</h3>
+                    <p>Un programador frontend es el encargado de desarrollar la parte visual de la web. 
+                      Diseña la estructura, la tipografía, la colorimetría, imágenes, banners, etc.</p>
+                    <button data-toggle="modal" data-target="#myModal">+ Info</button>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                    
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Modal Header</h4>
+                        </div>
+                        <div class="modal-body">
+                          <p>Some text in the modal.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                <div class="item">
+                     <div class="carta2">
+                    <h3>Programador Full-Stack</h3>
+                    <p>Es un perfil híbrido, multiskill que puede desenvolverse en el front-end,back-end de un desarrollo web. 
+                      <br>con conocimientos y herramientas que le permiten afrontar cualquier etapa en la construcción de portales en línea.</p>
+                    <button>+ Info</button>
+                    </div>  
+                </div>
+
+                <div class="item">
+                <div class="carta3">
+                    <h3>Programador Python</h3>
+                    <p>Un programador Python desarrolla soluciones robustas, potentes y escalables. Los expertos en Python se desempeñan <br>en 
+                      especialidades en auge como la Inteligencia Artificial, la Ciencia de Datos y el Desarrollo Web.</p>
+                    <button>+ Info</button>
+                </div>  
+                </div>
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✔️ 100% online</li>
+                <li>✔️ Flexibilidad de horarios</li>
+                <li>✔️ Soporte 1:1</li>
+                <li>✔️ Asistencia financiera</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="final">
+        <h2>Listo para programar?</h2>
+        <button>APLICÁ YA!</button>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; ProgramaYa 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
